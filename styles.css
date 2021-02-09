@@ -77,7 +77,8 @@ header {
       font-family: "Roboto", sans-serif;
       font-weight: bolder;
       font-size: 20px;
-      cursor: pointer; }
+      cursor: pointer;
+      outline: none; }
       .form button:hover {
         -webkit-box-shadow: 0px 4px 14px 5px rgba(0, 0, 0, 0.27);
         -moz-box-shadow: 0px 4px 14px 5px rgba(0, 0, 0, 0.27);
@@ -88,7 +89,10 @@ header {
     width: 90%;
     font-size: 25px; }
   form input {
-    width: 80%; } }
+    width: 80%;
+    outline: none; }
+  form button {
+    outline: none; } }
 /*!Version Pc min-width: 701px*/
 @media screen and (min-width: 701px) {
   /*!Contenedor del formulario*/
